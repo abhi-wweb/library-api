@@ -6,7 +6,8 @@ const path = require("path");
 const fs = require("fs");
 const dotenv = require("dotenv");
 const axios = require("axios");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
+
 const jwt = require("jsonwebtoken");
 
 dotenv.config();
