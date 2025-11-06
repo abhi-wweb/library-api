@@ -245,7 +245,7 @@ app.post("/ask", async (req, res) => {
       headers: {
         Authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": "https://library-api-xeq6.onrender.com",
+        "HTTP-Referer": "http://localhost:3000",
         "X-Title": "AI Study Assistant",
       },
       body: JSON.stringify({
